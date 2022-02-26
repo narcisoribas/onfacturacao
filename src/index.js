@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./assects/css/ui.css";
+import "./assects/fonts/fontawesome/css/fontawesome-all.min.css" 
+import "./assects/css/OverlayScrollbars.css" 
+import "./global.css"
 
 ReactDOM.render(
   <React.StrictMode>

@@ -1,0 +1,32 @@
+.loginContainer{
+    height: 100vh;
+    
+    
+
+}
+
+
+.formLogin{
+    margin-top: 10rem;
+}
+
+.formLogin input{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+.RowForm{
+
+}
+
+
+.welcome{
+    color:#fff;
+    background-color: var(--blue);
+    height: 100vh;
+    flex: 1;
+    text-align: center;
+    padding-top: 2rem;
+}
