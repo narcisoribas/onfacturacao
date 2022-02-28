@@ -2,6 +2,8 @@ import squanchy from "./../../assects/images/logos/squanchy.jpg"
 import me from "./../../assects/images/avatars/me.jpg"
 
 
+
+
 export function Header() {
     return (
 
@@ -43,12 +45,15 @@ export function Header() {
                                 </div>
 
 
+                                    
+
+
                                 <div className="widget-header dropdown">
                                     <a href="#" className="ml-3 icontext" data-toggle="dropdown" data-offset="20,10">
                                         <img src={me} class="avatar" alt=""/>
                                     </a>
                                     <div className="dropdown-menu dropdown-menu-right">
-                                            <a className="dropdown-item" href="#"><i className="fa fa-sign-out-alt"></i> Logout</a>
+                                            <a className="dropdown-item" href=""><i className="fa fa-sign-out-alt"></i> Logout</a>
                                     </div> 
                                 </div>
                                                                     
